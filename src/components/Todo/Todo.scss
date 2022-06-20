@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    // width: 500px;
+    // height: 100vh;
+    margin: 20px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(93, 20, 148);
+
+    width: 500px;
+    height: 35px;
+    background-color: rgb(222, 180, 255);
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appСontainer {
+    background-color: rgb(128, 27, 206);;
+    width: 500px;
+    padding: 10px;
+    margin:  5px 0 5px 0;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputTask {
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 3px 5px;
+    height: 30px;
+}
+
+.addTask {
+    background-color:rgb(222, 180, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(93, 20, 148);
+
+    height: 30px;
+    width: 120px;
+    border-radius: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.addTask:hover {
+    background-color: rgb(226, 195, 250);
+    transition: 0.2s;
+}

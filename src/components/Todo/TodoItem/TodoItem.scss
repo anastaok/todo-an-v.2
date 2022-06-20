@@ -1,0 +1,42 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    padding: 5px 10px;
+    margin:  5px 0 5px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.task:nth-child(odd) {
+    background-color: rgba(223, 180, 255, 0.208);;
+}
+
+.taskItem {
+    display: flex;
+    align-items: center;
+}
+
+.deteleTask {
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+
+    margin: 0 0 0 5px;
+}
+.deteleTask:hover{
+color: red;
+transition: 0.3s;
+}
+
+.checkbox {
+    cursor: pointer;
+    margin: 0 5px 0 0;
+}
+
+.checkTask {
+    text-decoration: line-through;
+}
